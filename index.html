@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме — Сергей Рыжиков</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact p,
+        .contact a {
+            margin: 5px 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .job-title {
+            font-weight: bold;
+        }
+
+        .company {
+            font-style: italic;
+            color: #555;
+        }
+
+        .header {
+            display: flex;
+            /* flex-wrap: wrap; */
+            align-items: center;
+            
+            gap: 20px;
+        }
+
+        .header img {
+            margin-top: 0;
+            max-width: 200px;
+            height: auto;
+            /* border: 2px solid #ccc; */
+        }
+
+        @media (max-width: 600px) {
+            /* .header {
+                flex-direction: column;
+                align-items: flex-start;
+            } */
+
+            .header img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+            <div>
+                <h1>Рыжиков Сергей Николаевич</h1>
+                <div class="contact">
+                    <p>Москва</p>
+                    <p>+7 (927) 078-49-22</p>
+                    <p>Telegram: <a href="https://t.me/idchnik">@idchnik</a></p>
+                    <p>Email: <a href="mailto:sergeiryzhikovv@gmail.com">sergeiryzhikovv@gmail.com</a></p>
+                    <p>GitHub: <a href="https://github.com/SergeiRyzhikov">github.com/SergeiRyzhikov</a></p>
+                </div>
+            </div>
+            <!-- <img src="image.png" alt="Фото Сергея Рыжикова"> -->
+        </div>
+
+        <div class="section">
+            <h2>Желаемая должность</h2>
+            <p>Специалист по информационной безопасности</p>
+        </div>
+
+        <div class="section">
+            <h2>Образование</h2>
+            <p><strong>НИУ ВШЭ</strong>, Москва — Бакалавриат, направление «Информационная безопасность» (2023 – 2027,
+                обучение в процессе, бюджет)</p>
+        </div>
+
+        <div class="section">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Базовое понимание систем класса IdM</li>
+                <li>Основы криптографии и СКЗИ</li>
+                <li>Работа с ОС Linux (Ubuntu, Kali, Astra), Windows</li>
+                <li>Разработка пользовательских приложений (React, TypeScript) и интеграция с backend</li>
+                <li>OWASP Top 10 и распространённые уязвимости веб-приложений</li>
+                <li>Базовые знания сетевых технологий и принципов их защиты</li>
+                <li>Git, Jira</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Опыт</h2>
+            <p class="job-title">Frontend Developer | Февраль 2024 — Декабрь 2024</p>
+            <p class="company">ЮР-ЛИ — Москва (ИТ-консалтинг, автоматизация бизнес-процессов, финансово-юридический
+                сектор)</p>
+            <ul>
+                <li>Реализация авторизации и разграничения прав доступа через Keycloak (аналог систем IdM)</li>
+                <li>Настройка и кастомизация ролей доступа пользователей в интерфейсе</li>
+                <li>Интеграция фронтенда с backend, включая работу с защищёнными API</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Pet-проекты и учебные работы</h2>
+            <ul>
+                <li>Реализация стеганографического алгоритма, основанного на нижнетреугольной матрице, в рамках
+                    научно-исследовательской практики: изучение алгоритма, анализ его преимуществ и недостатков,
+                    тестирование эффективности</li>
+                <li>Модуль визуализации ЭКГ в реальном времени (JavaScript + SVG) с обработкой потоковых данных</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Обо мне</h2>
+            <p>Студент НИУ ВШЭ по направлению «Информационная безопасность» с практическим опытом разработки систем с
+                авторизацией, контролем прав и интеграцией с backend. Понимаю ключевые концепции ИБ и основы
+                криптографии, знаком с системами управления доступом (IdM), OWASP Top 10 и сетевыми технологиями. Хочу
+                развиваться в сфере информационной безопасности, углублять знания в области защиты данных, анализа
+                уязвимостей и разработки решений для обеспечения безопасности информационных систем. Быстро осваиваю
+                новые технологии, умею работать в команде, системно подхожу к решению задач и стремлюсь приносить пользу
+                проекту.</p>
+        </div>
+    </div>
+</body>
+
+</html>
